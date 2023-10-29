@@ -608,4 +608,5 @@ def mainloop():
                         reset()
 
 # run game
-mainloop()
+if __name__ == '__main__':
+    mainloop()
