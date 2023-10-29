@@ -496,8 +496,8 @@ def check_word():
     # check if word is correct else check for correct letters
     # if correct, displays correct message and next word button
     if user_word == correct_word:
-        # display text saying "You Win Loser!"
-        text = font(15).render("You Win Loser!", True, (173, 36, 31))
+        # display text saying "You Win! Congrats!"
+        text = font(15).render("You Win! Congrats!", True, (173, 36, 31))
         window.blit(text, (236, 510))
         print("Solved!")
 
